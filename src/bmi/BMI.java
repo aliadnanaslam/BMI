@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Body Mass Index
+ * @version 1.0 
  */
 package bmi;
 
@@ -16,6 +15,8 @@ public class BMI extends javax.swing.JFrame {
 
     /**
      * Creates new form BMI
+     * @function BMI
+     * @version 1.0
      */
     public BMI() {
         initComponents();
