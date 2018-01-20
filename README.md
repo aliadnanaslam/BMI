@@ -12,7 +12,7 @@ Body Mass Index application written in java.
 **Gender:** Male or Female gender can be selected only.
 **Height:** You can change height scale to cm or FT + IN form by selecting one of the combo box list. In feet + inch form app takes 0 to 999 feet and 0 to 9999 inch and in the form of cm it takes 0 to 99999 cm. 
 **Weight:** You can change weight scale to ST + LB, LB or KG by selecting one of the combo box list. In kg form app takes 0 to 999 kg’s, app takes 0 to 99999 pounds and 0 to 999 stone and 0 to 99999 pound.
-Output Validations:
+## Output Validations:
 **BMI:** BMI ranges in between 0 and 100.
 **IDEAL WEIGHT:** 
 •	App used the Dr. DR Miller formula to calculate the ideal weight of the body. Output of the ideal weight is from 0 and 440 pounds or from 0 to 220 kg.
