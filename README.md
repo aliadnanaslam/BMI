@@ -13,21 +13,21 @@ Body Mass Index application written in java.
 **Height:** You can change height scale to cm or FT + IN form by selecting one of the combo box list. In feet + inch form app takes 0 to 999 feet and 0 to 9999 inch and in the form of cm it takes 0 to 99999 cm.\
 **Weight:** You can change weight scale to ST + LB, LB or KG by selecting one of the combo box list. In kg form app takes 0 to 999 kg’s, app takes 0 to 99999 pounds and 0 to 999 stone and 0 to 99999 pound.
 ## Output Validations:
-**BMI:** BMI ranges in between 0 and 100.\
-**IDEAL WEIGHT:**\
-•	App used the Dr. DR Miller formula to calculate the ideal weight of the body. Output of the ideal weight is from 0 and 440 pounds or from 0 to 220 kg.\
-•	App only shows the ideal weight if height is greater than 20 inch.\
-•	App only shows the ideal weight if height is greater than 51cm for men and greater than 53cm for women.\
-•	Dr. DR Miller’s formula\
-**For Men**\
-        IDEAL WEIGHT = 56.2kg + 1.41kg / inch over 5ft\
-**For Women**\
-        IDEAL WEIGHT = 53.1kg + 1.36kg / inch over 5ft\
-**FAT:**\
-•	FAT ranges in between 0 and 100 percent.\
-•	App used BMI to calculate the FAT.\
-•	Following are the formula’s used by the app to calculate the FAT of a body.\
-**For Men**\
-FAT = (1.20 * BMI) + (0.23 * AGE) – 10.8 – 5.4\
-**For Women**\
-FAT = (1.20 * BMI) + (0.23 * AGE) – 5.4\
+* **BMI:** BMI ranges in between 0 and 100.\
+* **IDEAL WEIGHT:**\
+	* App used the Dr. DR Miller formula to calculate the ideal weight of the body. Output of the ideal weight is from 0 and 440 pounds or from 0 to 220 kg.\
+	* App only shows the ideal weight if height is greater than 20 inch.\
+	* App only shows the ideal weight if height is greater than 51cm for men and greater than 53cm for women.\
+* ***Dr. DR Miller’s formula***\
+	* **Formula of Ideal Weight for Men**\
+		* IDEAL WEIGHT = 56.2kg + 1.41kg / inch over 5ft\
+	* **Formula of Ideal Weight for Women**\
+		* IDEAL WEIGHT = 53.1kg + 1.36kg / inch over 5ft\
+* **FAT:**\
+	* FAT ranges in between 0 and 100 percent.\
+	* App used BMI to calculate the FAT.\
+	* Following are the formula’s used by the app to calculate the FAT of a body.\
+	* **Formula of Fat for Men**\
+		* FAT = (1.20 * BMI) + (0.23 * AGE) – 10.8 – 5.4\
+	* **Formula of Fat for Women**\
+		* FAT = (1.20 * BMI) + (0.23 * AGE) – 5.4\
